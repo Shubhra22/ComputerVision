@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HelloCV"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv_build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="J:/OpenCVProjects/HelloCV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloCV">
+				<Option output="J:/OpenCVProjects/HelloCV/cmake-build-debug/HelloCV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/OpenCVProjects/HelloCV/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/opencv_build"/>
+					<Add directory="D:/opencv/include"/>
+					<Add directory="D:/opencv/modules/core/include"/>
+					<Add directory="D:/opencv/modules/flann/include"/>
+					<Add directory="D:/opencv_contrib/modules/hdf/include"/>
+					<Add directory="D:/opencv/modules/imgproc/include"/>
+					<Add directory="D:/opencv_contrib/modules/intensity_transform/include"/>
+					<Add directory="D:/opencv/modules/ml/include"/>
+					<Add directory="D:/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="D:/opencv/modules/photo/include"/>
+					<Add directory="D:/opencv_contrib/modules/plot/include"/>
+					<Add directory="D:/opencv_contrib/modules/quality/include"/>
+					<Add directory="D:/opencv_contrib/modules/reg/include"/>
+					<Add directory="D:/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="D:/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="D:/opencv/modules/dnn/include"/>
+					<Add directory="D:/opencv_contrib/modules/dnn_superres/include"/>
+					<Add directory="D:/opencv/modules/features2d/include"/>
+					<Add directory="D:/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="D:/opencv_contrib/modules/hfs/include"/>
+					<Add directory="D:/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="D:/opencv/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="D:/opencv_contrib/modules/saliency/include"/>
+					<Add directory="D:/opencv_contrib/modules/text/include"/>
+					<Add directory="D:/opencv/modules/videoio/include"/>
+					<Add directory="D:/opencv/modules/calib3d/include"/>
+					<Add directory="D:/opencv_contrib/modules/datasets/include"/>
+					<Add directory="D:/opencv/modules/highgui/include"/>
+					<Add directory="D:/opencv/modules/objdetect/include"/>
+					<Add directory="D:/opencv_contrib/modules/rapid/include"/>
+					<Add directory="D:/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="D:/opencv_contrib/modules/shape/include"/>
+					<Add directory="D:/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="D:/opencv/modules/ts/include"/>
+					<Add directory="D:/opencv/modules/video/include"/>
+					<Add directory="D:/opencv_contrib/modules/videostab/include"/>
+					<Add directory="D:/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="D:/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="D:/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="D:/opencv_contrib/modules/aruco/include"/>
+					<Add directory="D:/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="D:/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="D:/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="D:/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="D:/opencv_contrib/modules/dpm/include"/>
+					<Add directory="D:/opencv_contrib/modules/face/include"/>
+					<Add directory="D:/opencv/modules/gapi/include"/>
+					<Add directory="D:/opencv_contrib/modules/optflow/include"/>
+					<Add directory="D:/opencv/modules/stitching/include"/>
+					<Add directory="D:/opencv_contrib/modules/superres/include"/>
+					<Add directory="D:/opencv_contrib/modules/tracking/include"/>
+					<Add directory="D:/opencv_contrib/modules/stereo/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 HelloCV"/>
+					<CompileFile command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HelloCV/fast">
+				<Option output="J:/OpenCVProjects/HelloCV/cmake-build-debug/HelloCV.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="J:/OpenCVProjects/HelloCV/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="D:/opencv_build"/>
+					<Add directory="D:/opencv/include"/>
+					<Add directory="D:/opencv/modules/core/include"/>
+					<Add directory="D:/opencv/modules/flann/include"/>
+					<Add directory="D:/opencv_contrib/modules/hdf/include"/>
+					<Add directory="D:/opencv/modules/imgproc/include"/>
+					<Add directory="D:/opencv_contrib/modules/intensity_transform/include"/>
+					<Add directory="D:/opencv/modules/ml/include"/>
+					<Add directory="D:/opencv_contrib/modules/phase_unwrapping/include"/>
+					<Add directory="D:/opencv/modules/photo/include"/>
+					<Add directory="D:/opencv_contrib/modules/plot/include"/>
+					<Add directory="D:/opencv_contrib/modules/quality/include"/>
+					<Add directory="D:/opencv_contrib/modules/reg/include"/>
+					<Add directory="D:/opencv_contrib/modules/surface_matching/include"/>
+					<Add directory="D:/opencv_contrib/modules/xphoto/include"/>
+					<Add directory="D:/opencv/modules/dnn/include"/>
+					<Add directory="D:/opencv_contrib/modules/dnn_superres/include"/>
+					<Add directory="D:/opencv/modules/features2d/include"/>
+					<Add directory="D:/opencv_contrib/modules/fuzzy/include"/>
+					<Add directory="D:/opencv_contrib/modules/hfs/include"/>
+					<Add directory="D:/opencv_contrib/modules/img_hash/include"/>
+					<Add directory="D:/opencv/modules/imgcodecs/include"/>
+					<Add directory="D:/opencv_contrib/modules/line_descriptor/include"/>
+					<Add directory="D:/opencv_contrib/modules/saliency/include"/>
+					<Add directory="D:/opencv_contrib/modules/text/include"/>
+					<Add directory="D:/opencv/modules/videoio/include"/>
+					<Add directory="D:/opencv/modules/calib3d/include"/>
+					<Add directory="D:/opencv_contrib/modules/datasets/include"/>
+					<Add directory="D:/opencv/modules/highgui/include"/>
+					<Add directory="D:/opencv/modules/objdetect/include"/>
+					<Add directory="D:/opencv_contrib/modules/rapid/include"/>
+					<Add directory="D:/opencv_contrib/modules/rgbd/include"/>
+					<Add directory="D:/opencv_contrib/modules/shape/include"/>
+					<Add directory="D:/opencv_contrib/modules/structured_light/include"/>
+					<Add directory="D:/opencv/modules/ts/include"/>
+					<Add directory="D:/opencv/modules/video/include"/>
+					<Add directory="D:/opencv_contrib/modules/videostab/include"/>
+					<Add directory="D:/opencv_contrib/modules/xfeatures2d/include"/>
+					<Add directory="D:/opencv_contrib/modules/ximgproc/include"/>
+					<Add directory="D:/opencv_contrib/modules/xobjdetect/include"/>
+					<Add directory="D:/opencv_contrib/modules/aruco/include"/>
+					<Add directory="D:/opencv_contrib/modules/bgsegm/include"/>
+					<Add directory="D:/opencv_contrib/modules/bioinspired/include"/>
+					<Add directory="D:/opencv_contrib/modules/ccalib/include"/>
+					<Add directory="D:/opencv_contrib/modules/dnn_objdetect/include"/>
+					<Add directory="D:/opencv_contrib/modules/dpm/include"/>
+					<Add directory="D:/opencv_contrib/modules/face/include"/>
+					<Add directory="D:/opencv/modules/gapi/include"/>
+					<Add directory="D:/opencv_contrib/modules/optflow/include"/>
+					<Add directory="D:/opencv/modules/stitching/include"/>
+					<Add directory="D:/opencv_contrib/modules/superres/include"/>
+					<Add directory="D:/opencv_contrib/modules/tracking/include"/>
+					<Add directory="D:/opencv_contrib/modules/stereo/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 HelloCV/fast"/>
+					<CompileFile command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="J:/OpenCVProjects/HelloCV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="J:/OpenCVProjects/HelloCV/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f J:\OpenCVProjects\HelloCV\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="J:/OpenCVProjects/HelloCV/main.cpp">
+			<Option target="HelloCV"/>
+		</Unit>
+		<Unit filename="J:/OpenCVProjects/HelloCV/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="J:/OpenCVProjects/HelloCV/opencv_build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv_build\"/>
+		</Unit>
+		<Unit filename="J:/OpenCVProjects/HelloCV/opencv_build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv_build\"/>
+		</Unit>
+		<Unit filename="J:/OpenCVProjects/HelloCV/opencv_build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv_build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
